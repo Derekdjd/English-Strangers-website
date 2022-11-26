@@ -1,0 +1,68 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 5vw;
+}
+
+h1 img {
+    width: 6vw;
+    margin: 0em 0.5em;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    border-radius: 5em;
+    padding-inline-start: 0px;
+}
+
+li{
+    list-style-type: none;
+    margin: 0.5em;
+    font-size: 2vw;
+    padding: 0.4em;
+    background-color: cornflowerblue;
+    border: 5px outset;
+    border-radius: 1em;
+
+}
+
+li:hover {
+    background-color: yellow;
+    border: 5px outset brown;
+}
+
+#strangers {
+    border-radius: 30px;
+    width:45%;
+}
+
+content {
+    display: flex;
+  }
+
+  content div {
+    border: 3px dotted brown;
+    border-radius: 30px;
+    margin: 0em 1em;
+  }
+
+  content div p {
+    margin: 1em;
+    font-size: 2vw;
+}
+
+content div h2 {
+    margin: 0.3em 1em;
+    text-align: center;
+}
+
+footer {
+    background-color: bisque;
+    border-radius: 30px;
+}
